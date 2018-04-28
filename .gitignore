@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/*
+output/*
+
+# js-docs ouput dir
+out/*
+
+# Ignore nginx container logs
+docker/nginx/logs/*
+docker/testapp/logs/
+docker/sdk/logs/*
+
+*.lock
