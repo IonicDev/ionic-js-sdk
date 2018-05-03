@@ -1,0 +1,21 @@
+{
+      "plugins": [
+              "plugins/markdown",
+              "plugins/summarize"
+      ],
+      "source": {
+              "include": ["./sdk/", "README.md"]
+      },
+      "opts": {
+              "destination": "./output/Docs",          // same as -d ./out/
+              "recurse": true,                 // same as -r
+              "tutorials": "./tutorials/",
+              "template": "node_modules/docdash",
+              "verbose":true
+      },
+      "templates": {
+          "default": {
+              "layoutFile": "./jsdoc/template.tmpl"
+          }
+      }
+}

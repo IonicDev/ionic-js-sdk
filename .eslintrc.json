@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "lowercase-naming"
+    ],
+
+    "rules" : {
+        "camelcase" : "error",
+        "lowercase-naming/lowercase-naming": 2,
+        "new-cap": ["error", { "capIsNew": true }]
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+      }
+}
